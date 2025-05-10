@@ -48,6 +48,7 @@ http://localhost:8000
 AUTH_USERNAME = "admin"
 AUTH_PASSWORD = "123"
 
+# You can change the password from the file app.py.
 ```
 
 ## Required Docker Privileges
