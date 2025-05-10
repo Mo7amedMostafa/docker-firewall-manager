@@ -43,6 +43,11 @@ Once the container is running, access the web interface at:
 
 ```
 http://localhost:8000
+
+# Authentication credentials
+AUTH_USERNAME = "admin"
+AUTH_PASSWORD = "123"
+
 ```
 
 ## Required Docker Privileges
