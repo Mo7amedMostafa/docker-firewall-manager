@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  firewall-manager:
+    build: .
+    container_name: docker-firewall-manager
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - /etc/iptables:/etc/iptables
+    cap_add:
+      - NET_ADMIN
+    network_mode: host
+    privileged: true
